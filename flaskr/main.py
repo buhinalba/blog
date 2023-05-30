@@ -8,11 +8,9 @@ def root():
     return render_template('index.html', title = "Welcome to Simple Flask")
 
 
-
 @app.route('/guess', methods=['GET'])
 def guess():
     return render_template('index.html', title = "Welcome to Guess page")
-
 
 
 @app.route('/blog', methods=['GET'])
